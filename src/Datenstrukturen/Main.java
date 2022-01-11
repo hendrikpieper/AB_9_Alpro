@@ -5,6 +5,7 @@ import A1.Kurs;
 public class Main {
     public static void main(String[] args) {
         Kurs biologie = new Kurs(1, "biologie", 15);
+        Kurs chemie = new Kurs(2, "chemie", 15);
 
         LinkedList neueListe = new LinkedList();
         neueListe = neueListe.einfuegen(neueListe, biologie);
